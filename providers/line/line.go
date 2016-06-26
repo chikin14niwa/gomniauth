@@ -1,4 +1,4 @@
-package lineOAuth
+package line
 
 import (
 	"github.com/stretchr/gomniauth"
