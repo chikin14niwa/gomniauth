@@ -7,7 +7,7 @@ import (
 // SharedProviderList keeps track of the last created ProviderList.
 // It is useful for using shortcut methods directly on gomniauth package
 // rather than having to refer to the list.
-var SharedProviderList *common.ProviderList
+var SharedProviderList common.ProviderList
 
 // ProviderList represents a simple common.ProviderList that holds
 // an array of providers, and allows access to them.
