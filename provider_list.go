@@ -25,9 +25,8 @@ func WithProviders(providers ...common.Provider) *ProviderList {
 }
 
 // Change SharedProviderList after calling WithProviders method.
-func SetProviders(list ProviderList) *ProviderList {
-	SharedProviderList = list
-	return SharedProviderList
+func SetProviders(list ProviderList) {
+	SharedProviderList = list.providers
 }
 
 // Add adds a provider to this list.
