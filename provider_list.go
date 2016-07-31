@@ -24,14 +24,10 @@ func WithProviders(providers ...common.Provider) *ProviderList {
 	return list
 }
 
-// Change SharedProviderList after calling WithProviders method.
-func SetProviders(list ProviderList) {
-	SharedProviderList = list.providers
-}
-
 // Add adds a provider to this list.
 func (l *ProviderList) Add(provider common.Provider) *ProviderList {
 	l.providers = append(l.providers, provider)
+	SharedProviderList = l.provider
 	return l
 }
 
