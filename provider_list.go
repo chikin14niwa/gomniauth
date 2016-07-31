@@ -27,7 +27,7 @@ func WithProviders(providers ...common.Provider) *ProviderList {
 // Add adds a provider to this list.
 func (l *ProviderList) Add(provider common.Provider) *ProviderList {
 	l.providers = append(l.providers, provider)
-	SharedProviderList = l.provider
+	SharedProviderList = l.providers
 	return l
 }
 
