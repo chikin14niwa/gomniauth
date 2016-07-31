@@ -2,7 +2,7 @@ package line
 
 import (
 	"github.com/chikin14niwa/gomniauth/common"
-	"github.com/chikin14niwa/objx"
+	"github.com/stretchr/objx"
 	"strconv"
 )
 

@@ -3,7 +3,7 @@ package oauth2
 import (
 	"github.com/chikin14niwa/gomniauth/common"
 	"github.com/chikin14niwa/gomniauth/test"
-	"github.com/chikin14niwa/objx"
+	"github.com/stretchr/objx"
 	"github.com/chikin14niwa/testify/assert"
 	"github.com/chikin14niwa/testify/mock"
 	"io/ioutil"

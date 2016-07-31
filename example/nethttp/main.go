@@ -6,7 +6,7 @@ import (
 	"github.com/chikin14niwa/gomniauth/providers/facebook"
 	"github.com/chikin14niwa/gomniauth/providers/github"
 	"github.com/chikin14niwa/gomniauth/providers/google"
-	"github.com/chikin14niwa/objx"
+	"github.com/stretchr/objx"
 	"io"
 	"net/http"
 )

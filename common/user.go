@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/chikin14niwa/objx"
+	"github.com/stretchr/objx"
 )
 
 const (

@@ -3,8 +3,8 @@ package common
 import (
 	"testing"
 
-	"github.com/chikin14niwa/codecs"
-	"github.com/chikin14niwa/objx"
+	"github.com/stretchr/codecs"
+	"github.com/stretchr/objx"
 	"github.com/chikin14niwa/testify/assert"
 )
 

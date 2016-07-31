@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/chikin14niwa/gomniauth/common"
-	"github.com/chikin14niwa/objx"
+	"github.com/stretchr/objx"
 	"io/ioutil"
 	"mime"
 	"net/http"

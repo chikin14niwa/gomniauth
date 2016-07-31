@@ -2,7 +2,7 @@ package oauth2
 
 import (
 	"github.com/chikin14niwa/gomniauth/common"
-	"github.com/chikin14niwa/objx"
+	"github.com/stretchr/objx"
 )
 
 // GetBeginAuthURLWithBase returns the OAuth2 authorization URL from the given arguments.

@@ -2,7 +2,7 @@ package gomniauth
 
 import (
 	"github.com/chikin14niwa/gomniauth/test"
-	"github.com/chikin14niwa/objx"
+	"github.com/stretchr/objx"
 	"github.com/chikin14niwa/testify/assert"
 	"testing"
 )
