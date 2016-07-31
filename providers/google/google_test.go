@@ -1,12 +1,12 @@
 package google
 
 import (
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/gomniauth/oauth2"
-	"github.com/stretchr/gomniauth/test"
-	"github.com/stretchr/objx"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/mock"
+	"github.com/chikin14niwa/gomniauth/common"
+	"github.com/chikin14niwa/gomniauth/oauth2"
+	"github.com/chikin14niwa/gomniauth/test"
+	"github.com/chikin14niwa/objx"
+	"github.com/chikin14niwa/testify/assert"
+	"github.com/chikin14niwa/testify/mock"
 	"io/ioutil"
 	"net/http"
 	"strings"
@@ -103,7 +103,7 @@ func TestGitHubGetBeginAuthURL(t *testing.T) {
 
 	common.SetSecurityKey("ABC123")
 
-	state := &common.State{Map: objx.MSI("after", "http://www.stretchr.com/")}
+	state := &common.State{Map: objx.MSI("after", "http://www.chikin14niwa.com/")}
 
 	g := New("clientID", "secret", "http://myapp.com/")
 

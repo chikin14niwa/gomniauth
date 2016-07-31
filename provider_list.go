@@ -1,7 +1,7 @@
 package gomniauth
 
 import (
-	"github.com/stretchr/gomniauth/common"
+	"github.com/chikin14niwa/gomniauth/common"
 )
 
 // SharedProviderList keeps track of the last created ProviderList.

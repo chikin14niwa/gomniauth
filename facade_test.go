@@ -1,9 +1,9 @@
 package gomniauth
 
 import (
-	"github.com/stretchr/gomniauth/test"
-	"github.com/stretchr/objx"
-	"github.com/stretchr/testify/assert"
+	"github.com/chikin14niwa/gomniauth/test"
+	"github.com/chikin14niwa/objx"
+	"github.com/chikin14niwa/testify/assert"
 	"testing"
 )
 

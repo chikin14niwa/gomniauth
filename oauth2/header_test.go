@@ -1,9 +1,9 @@
 package oauth2
 
 import (
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/objx"
-	"github.com/stretchr/testify/assert"
+	"github.com/chikin14niwa/gomniauth/common"
+	"github.com/chikin14niwa/objx"
+	"github.com/chikin14niwa/testify/assert"
 	"testing"
 )
 

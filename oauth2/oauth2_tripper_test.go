@@ -1,12 +1,12 @@
 package oauth2
 
 import (
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/gomniauth/test"
-	"github.com/stretchr/objx"
-	"github.com/stretchr/testify/assert"
-	testifyhttp "github.com/stretchr/testify/http"
-	"github.com/stretchr/testify/mock"
+	"github.com/chikin14niwa/gomniauth/common"
+	"github.com/chikin14niwa/gomniauth/test"
+	"github.com/chikin14niwa/objx"
+	"github.com/chikin14niwa/testify/assert"
+	testifyhttp "github.com/chikin14niwa/testify/http"
+	"github.com/chikin14niwa/testify/mock"
 	"net/http"
 	"testing"
 )

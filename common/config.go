@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/stretchr/objx"
+	"github.com/chikin14niwa/objx"
 )
 
 // Config represent data that describes information needed

@@ -1,7 +1,7 @@
 package oauth2
 
 import (
-	"github.com/stretchr/testify/assert"
+	"github.com/chikin14niwa/testify/assert"
 	"testing"
 )
 

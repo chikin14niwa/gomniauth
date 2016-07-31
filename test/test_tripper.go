@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/testify/mock"
+	"github.com/chikin14niwa/gomniauth/common"
+	"github.com/chikin14niwa/testify/mock"
 	"net/http"
 )
 

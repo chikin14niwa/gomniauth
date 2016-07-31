@@ -1,8 +1,8 @@
 package gomniauth
 
 import (
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/objx"
+	"github.com/chikin14niwa/gomniauth/common"
+	"github.com/chikin14niwa/objx"
 )
 
 // Provider gets a provider by name from the

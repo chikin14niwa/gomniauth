@@ -1,10 +1,10 @@
 package github
 
 import (
-	"github.com/stretchr/gomniauth"
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/gomniauth/oauth2"
-	"github.com/stretchr/objx"
+	"github.com/chikin14niwa/gomniauth"
+	"github.com/chikin14niwa/gomniauth/common"
+	"github.com/chikin14niwa/gomniauth/oauth2"
+	"github.com/chikin14niwa/objx"
 	"net/http"
 )
 

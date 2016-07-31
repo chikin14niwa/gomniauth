@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	"github.com/stretchr/objx"
+	"github.com/chikin14niwa/objx"
 	"strconv"
 )
 

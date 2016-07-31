@@ -3,9 +3,9 @@ package oauth2
 import (
 	"testing"
 
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/objx"
-	"github.com/stretchr/testify/assert"
+	"github.com/chikin14niwa/gomniauth/common"
+	"github.com/chikin14niwa/objx"
+	"github.com/chikin14niwa/testify/assert"
 )
 
 func TestOAuth2HandlerBeginAuthURLWithBase(t *testing.T) {
@@ -22,7 +22,7 @@ func TestOAuth2HandlerBeginAuthURLWithBase(t *testing.T) {
 		Set("access_type", "access_type").
 		Set("approval_prompt", "approval_prompt")
 
-	state := &common.State{Map: objx.MSI("after", "http://www.stretchr.com/")}
+	state := &common.State{Map: objx.MSI("after", "http://www.chikin14niwa.com/")}
 	base64State, _ := state.Base64()
 
 	url, err := GetBeginAuthURLWithBase(base, state, config)
@@ -52,7 +52,7 @@ func TestOAuth2HandlerBeginAuthURLWithBaseMultipleScope(t *testing.T) {
 		Set("access_type", "access_type").
 		Set("approval_prompt", "approval_prompt")
 
-	state := &common.State{Map: objx.MSI("after", "http://www.stretchr.com/")}
+	state := &common.State{Map: objx.MSI("after", "http://www.chikin14niwa.com/")}
 	base64State, _ := state.Base64()
 
 	url, err := GetBeginAuthURLWithBase(base, state, config)

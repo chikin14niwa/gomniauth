@@ -3,9 +3,9 @@ package common
 import (
 	"testing"
 
-	"github.com/stretchr/codecs"
-	"github.com/stretchr/objx"
-	"github.com/stretchr/testify/assert"
+	"github.com/chikin14niwa/codecs"
+	"github.com/chikin14niwa/objx"
+	"github.com/chikin14niwa/testify/assert"
 )
 
 func TestCredentials_PublicData(t *testing.T) {

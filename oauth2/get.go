@@ -1,9 +1,9 @@
 package oauth2
 
 import (
-	"github.com/stretchr/codecs/services"
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/objx"
+	"github.com/chikin14niwa/codecs/services"
+	"github.com/chikin14niwa/gomniauth/common"
+	"github.com/chikin14niwa/objx"
 	"io/ioutil"
 )
 

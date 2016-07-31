@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/stretchr/objx"
+	"github.com/chikin14niwa/objx"
 )
 
 // State represents a map of state arguments that can be used to

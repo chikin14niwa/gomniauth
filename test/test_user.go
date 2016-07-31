@@ -1,9 +1,9 @@
 package test
 
 import (
-	"github.com/stretchr/gomniauth/common"
-	"github.com/stretchr/objx"
-	"github.com/stretchr/testify/mock"
+	"github.com/chikin14niwa/gomniauth/common"
+	"github.com/chikin14niwa/objx"
+	"github.com/chikin14niwa/testify/mock"
 )
 
 type TestUser struct {
