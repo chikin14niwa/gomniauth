@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/chikin14niwa/signature"
+	"github.com/stretchr/signature"
 )
 
 var securityKey string = ""
